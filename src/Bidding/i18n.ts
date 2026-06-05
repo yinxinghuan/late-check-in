@@ -20,7 +20,7 @@ const STRINGS: Record<Locale, Record<string, string>> = {
   en: {
     // ── Choices ────────────────────────────────────────────────────────────
     'choice.step_to_her':     'step toward her',
-    'choice.pick_up_phone':   'pick up the phone',
+    'choice.pick_up_phone':   'pick up the room phone',
     'choice.touch_shoulder':  'touch her shoulder',
     'choice.step_back':       'step back',
     'choice.stay_on_line':    'stay on the line',
@@ -38,17 +38,17 @@ const STRINGS: Record<Locale, Record<string, string>> = {
     'ending.AAA.title':   'checked in',
     'ending.AAA.tagline': 'Her lips are warm. You never gave the front desk your name — and you never will.',
     'ending.AAB.title':   'no face to check out',
-    'ending.AAB.tagline': 'You lifted her face like a mask. Behind it, the room kept smiling.',
+    'ending.AAB.tagline': 'You turned her to face you. There was no face — and it was already standing across the room, watching.',
     'ending.ABA.title':   'the smooth reflection',
-    'ending.ABA.tagline': 'The mirror kept her body and gave back no face.',
+    'ending.ABA.tagline': 'You looked to the mirror. It kept her body and gave back a blank, faceless oval.',
     'ending.ABB.title':   'the second guest',
-    'ending.ABB.tagline': 'Two of her in the glass, both watching you, neither in any hurry to leave.',
-    'ending.BAA.title':   'the one at the window',
-    'ending.BAA.tagline': 'Her voice in the receiver, her warmth already at the glass — and the city below holds its breath for you.',
+    'ending.ABB.tagline': 'You kept watching the glass. A second her stepped out of it. Now there are two — both watching you, neither leaving.',
+    'ending.BAA.title':   'the window',
+    'ending.BAA.tagline': 'You set the phone down and crossed to her at the glass. Forty floors down, the city held still — just for the two of you.',
     'ending.BAB.title':   'the wake-up call',
     'ending.BAB.tagline': 'You hung up. It rang again. The face in the window was still screaming when you answered.',
-    'ending.BBA.title':   'the room behind the room',
-    'ending.BBA.tagline': 'You took the hand on your shoulder. Through the crack, the same room — and her, already waiting in it.',
+    'ending.BBA.title':   'the hand from the wall',
+    'ending.BBA.tagline': 'A hand reached out of the crack in the wall. You took it. On the other side: the same room, and her, already waiting.',
     'ending.BBB.title':   'every room is this room',
     'ending.BBB.tagline': 'You will check in here again tonight. And tomorrow. And her, and her, and her.',
 
@@ -61,13 +61,13 @@ const STRINGS: Record<Locale, Record<string, string>> = {
 
     // ── Intro ──────────────────────────────────────────────────────────────
     'intro.title':   'late check-in',
-    'intro.hint':    'You check in past midnight. The room was supposed to be empty. Five minutes, your call. Some doors open soft. Some open wrong.',
+    'intro.hint':    'You check in past midnight. The front desk is empty; a key sits waiting on the counter. The room was not supposed to have anyone in it. Five minutes — your call. Some doors open soft. Some open wrong.',
     'intro.cta':     'tap to check in',
   },
 
   zh: {
     'choice.step_to_her':     '朝她走过去',
-    'choice.pick_up_phone':   '拿起电话',
+    'choice.pick_up_phone':   '拿起房间电话',
     'choice.touch_shoulder':  '触她的肩',
     'choice.step_back':       '退后一步',
     'choice.stay_on_line':    '别挂, 继续听',
@@ -84,17 +84,17 @@ const STRINGS: Record<Locale, Record<string, string>> = {
     'ending.AAA.title':   '已入住',
     'ending.AAA.tagline': '她的唇是温的。你从没把名字告诉前台 — 以后也不会了。',
     'ending.AAB.title':   '无脸退房',
-    'ending.AAB.tagline': '你像揭面具一样掀起她的脸。面具后面, 整间屋子还在笑。',
+    'ending.AAB.tagline': '你把她转过来面对你。那里没有脸 — 而它早已站在房间另一头, 看着你。',
     'ending.ABA.title':   '光滑的倒影',
-    'ending.ABA.tagline': '镜子留下了她的身体, 还回来一张没有脸的倒影。',
+    'ending.ABA.tagline': '你看向镜子。它留下了她的身体, 还回来一张空白的、没有脸的椭圆。',
     'ending.ABB.title':   '第二位客人',
-    'ending.ABB.tagline': '玻璃里有两个她, 都在看你, 谁都不急着离开。',
-    'ending.BAA.title':   '窗边的那一个',
-    'ending.BAA.tagline': '她的声音在听筒里, 她的体温已经在窗边 — 楼下整座城都为你屏住了呼吸。',
+    'ending.ABB.tagline': '你一直盯着那面玻璃。第二个她从里面走了出来。现在有两个 — 都在看你, 谁都不走。',
+    'ending.BAA.title':   '窗边',
+    'ending.BAA.tagline': '你放下电话, 走到窗边她身旁。四十层楼下, 整座城静止了 — 只为你们两个。',
     'ending.BAB.title':   '叫醒服务',
     'ending.BAB.tagline': '你挂了。它又响了。你接起来时, 窗里那张脸还在尖叫。',
-    'ending.BBA.title':   '房间后面的房间',
-    'ending.BBA.tagline': '你握住了肩上那只手。裂缝那头, 是同一间屋子 — 而她, 早已在里面等着。',
+    'ending.BBA.title':   '墙里伸出的手',
+    'ending.BBA.tagline': '一只手从墙上的裂缝里伸出来。你握住了它。另一头: 是同一间屋子, 而她, 早已在里面等着。',
     'ending.BBB.title':   '每一间都是这一间',
     'ending.BBB.tagline': '今晚你会再次入住这里。明晚也是。还有她, 和她, 和她。',
 
@@ -106,7 +106,7 @@ const STRINGS: Record<Locale, Record<string, string>> = {
 
     // ── Intro ──────────────────────────────────────────────────────────────
     'intro.title':   '深夜入住',
-    'intro.hint':    '你在午夜后办理入住。这房间本该是空的。五分钟, 你来决定。有的门通向温柔, 有的门, 不对劲。',
+    'intro.hint':    '你在午夜后办理入住。前台空无一人, 钥匙搁在台面上等你。这房间本不该有人。五分钟, 你来决定。有的门通向温柔, 有的门, 不对劲。',
     'intro.cta':     '点屏幕入住',
   },
 };

@@ -114,11 +114,14 @@ export const NODES: Record<string, NodeDef> = {
     ch('choice.step_through',   'BBB', 40, 28),
   ),
 
-  // Layer 3 — endings (8): 3 sensual / 5 horror.
+  // Layer 3 — endings (8): 2 sensual / 6 horror.
+  // Coherent spine: bodily closeness to her resolves sensual (AAA kiss,
+  // BAA leave the phone and go to her); anything mediated through glass /
+  // mirror / phone / wall resolves horror.
   AAA: ending('AAA', 'sensual'),
   AAB: ending('AAB', 'horror'),
   ABA: ending('ABA', 'horror'),
-  ABB: ending('ABB', 'sensual'),
+  ABB: ending('ABB', 'horror'),
   BAA: ending('BAA', 'sensual'),
   BAB: ending('BAB', 'horror'),
   BBA: ending('BBA', 'horror'),
